@@ -4,7 +4,7 @@ This is a basic project template for building OpenGL project on Xcode
 
 ### Prerequisite ###
 
-* Xcode 7.2
+* Xcode 7.2 with OS X SDK
 * libglew 1.12
 
 ### libglew installation ###
@@ -17,7 +17,9 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 Step 2: Install libglew
 ```
-brew install libglew
+brew install glew
 ```
+The libglew library can be found at '/usr/local/Cellar/glew'
+
 ### Contact ###
 luweiy@sfu.ca
