@@ -7,24 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F11859F1C58298700EA1CE0 /* fshader41.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F11859A1C58296900EA1CE0 /* fshader41.glsl */; };
+		0F1185A01C58298700EA1CE0 /* fshader42.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F11859B1C58296900EA1CE0 /* fshader42.glsl */; };
+		0F1185A11C58298700EA1CE0 /* vshader41.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F11859C1C58296900EA1CE0 /* vshader41.glsl */; };
+		0F1185A21C58298700EA1CE0 /* vshader42.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F11859D1C58296900EA1CE0 /* vshader42.glsl */; };
 		0FE206271C580A7D00375FF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FE206261C580A7D00375FF7 /* main.cpp */; };
+		0FE2062E1C580B2100375FF7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE2062D1C580B2100375FF7 /* OpenGL.framework */; };
+		0FE206311C580B3A00375FF7 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE2062F1C580B3A00375FF7 /* libGLEW.a */; };
+		0FE206321C580B3A00375FF7 /* libGLEWmx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE206301C580B3A00375FF7 /* libGLEWmx.a */; };
+		0FE206341C580B9A00375FF7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE206331C580B9A00375FF7 /* GLUT.framework */; };
+		0FE206361C580BB500375FF7 /* InitShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FE206351C580BB500375FF7 /* InitShader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0FE206211C580A7D00375FF7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				0F11859F1C58298700EA1CE0 /* fshader41.glsl in CopyFiles */,
+				0F1185A01C58298700EA1CE0 /* fshader42.glsl in CopyFiles */,
+				0F1185A11C58298700EA1CE0 /* vshader41.glsl in CopyFiles */,
+				0F1185A21C58298700EA1CE0 /* vshader42.glsl in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F11859A1C58296900EA1CE0 /* fshader41.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fshader41.glsl; sourceTree = "<group>"; };
+		0F11859B1C58296900EA1CE0 /* fshader42.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fshader42.glsl; sourceTree = "<group>"; };
+		0F11859C1C58296900EA1CE0 /* vshader41.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vshader41.glsl; sourceTree = "<group>"; };
+		0F11859D1C58296900EA1CE0 /* vshader42.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vshader42.glsl; sourceTree = "<group>"; };
 		0FE206231C580A7D00375FF7 /* OpenGL_example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGL_example; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE206261C580A7D00375FF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0FE2062D1C580B2100375FF7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		0FE2062F1C580B3A00375FF7 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = /usr/local/Cellar/glew/1.12.0/lib/libGLEW.a; sourceTree = "<absolute>"; };
+		0FE206301C580B3A00375FF7 /* libGLEWmx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEWmx.a; path = /usr/local/Cellar/glew/1.12.0/lib/libGLEWmx.a; sourceTree = "<absolute>"; };
+		0FE206331C580B9A00375FF7 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		0FE206351C580BB500375FF7 /* InitShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InitShader.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,15 +54,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE206341C580B9A00375FF7 /* GLUT.framework in Frameworks */,
+				0FE206311C580B3A00375FF7 /* libGLEW.a in Frameworks */,
+				0FE206321C580B3A00375FF7 /* libGLEWmx.a in Frameworks */,
+				0FE2062E1C580B2100375FF7 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F11859E1C58296C00EA1CE0 /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				0F11859A1C58296900EA1CE0 /* fshader41.glsl */,
+				0F11859B1C58296900EA1CE0 /* fshader42.glsl */,
+				0F11859C1C58296900EA1CE0 /* vshader41.glsl */,
+				0F11859D1C58296900EA1CE0 /* vshader42.glsl */,
+			);
+			name = Shader;
+			sourceTree = "<group>";
+		};
+		0F1185A31C5829D500EA1CE0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0FE206331C580B9A00375FF7 /* GLUT.framework */,
+				0FE2062F1C580B3A00375FF7 /* libGLEW.a */,
+				0FE206301C580B3A00375FF7 /* libGLEWmx.a */,
+				0FE2062D1C580B2100375FF7 /* OpenGL.framework */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
 		0FE2061A1C580A7D00375FF7 = {
 			isa = PBXGroup;
 			children = (
+				0F1185A31C5829D500EA1CE0 /* lib */,
 				0FE206251C580A7D00375FF7 /* OpenGL_example */,
 				0FE206241C580A7D00375FF7 /* Products */,
 			);
@@ -57,6 +106,8 @@
 		0FE206251C580A7D00375FF7 /* OpenGL_example */ = {
 			isa = PBXGroup;
 			children = (
+				0F11859E1C58296C00EA1CE0 /* Shader */,
+				0FE206351C580BB500375FF7 /* InitShader.cpp */,
 				0FE206261C580A7D00375FF7 /* main.cpp */,
 			);
 			path = OpenGL_example;
@@ -118,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE206361C580BB500375FF7 /* InitShader.cpp in Sources */,
 				0FE206271C580A7D00375FF7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +259,14 @@
 		0FE2062B1C580A7D00375FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glew/1.12.0/include,
+					./include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/1.12.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -214,6 +274,14 @@
 		0FE2062C1C580A7D00375FF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glew/1.12.0/include,
+					./include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/1.12.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -237,6 +305,7 @@
 				0FE2062C1C580A7D00375FF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
