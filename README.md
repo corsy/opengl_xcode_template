@@ -19,7 +19,7 @@ Step 2: Install libglew
 ```
 brew install glew
 ```
-The libglew library can be found at '/usr/local/Cellar/glew'
+The libglew library can be found at `/usr/local/Cellar/glew`
 
 ### Contact ###
 luweiy@sfu.ca
